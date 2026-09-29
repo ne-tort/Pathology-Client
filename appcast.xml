@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App update feed template. On a tagged release, CI renders v4.2.0 /
+     4.2.0 and publishes the result to ne-tort/Pathology-Client
+     (see the upload-release job in .github/workflows/build.yml).
+     The app reads it via Constants.appCastUrl. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Pathology updates</title>
+        <item>
+            <title>4.2.0</title>
+            <enclosure
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.2.0/Pathology-Android-universal.apk"
+                sparkle:version="4.2.0" sparkle:os="android" />
+        </item>
+        <item>
+            <title>4.2.0</title>
+            <enclosure
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.2.0/Pathology-Windows-Setup-x64.exe"
+                sparkle:version="4.2.0" sparkle:os="windows" />
+        </item>
+        <item>
+            <title>4.2.0</title>
+            <enclosure
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.2.0/Pathology-Linux-x64-AppImage.AppImage"
+                sparkle:version="4.2.0" sparkle:os="linux" />
+        </item>
+    </channel>
+</rss>
