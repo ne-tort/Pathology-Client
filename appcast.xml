@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- App update feed template. On a tagged release, CI renders v4.3.17 /
-     4.3.17 and publishes the result to ne-tort/Pathology-Client
+<!-- App update feed template. On a tagged release, CI renders v4.3.18 /
+     4.3.18 and publishes the result to ne-tort/Pathology-Client
      (see the upload-release job in .github/workflows/build.yml).
      The app reads it via Constants.appCastUrl. -->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>Pathology updates</title>
         <item>
-            <title>4.3.17</title>
+            <title>4.3.18</title>
             <enclosure
-                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.17/Pathology-Android-universal.apk"
-                sparkle:version="4.3.17" sparkle:os="android" />
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.18/Pathology-Android-universal.apk"
+                sparkle:version="4.3.18" sparkle:os="android" />
         </item>
         <item>
-            <title>4.3.17</title>
+            <title>4.3.18</title>
             <enclosure
-                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.17/Pathology-Windows-Setup-x64.exe"
-                sparkle:version="4.3.17" sparkle:os="windows" />
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.18/Pathology-Windows-Setup-x64.exe"
+                sparkle:version="4.3.18" sparkle:os="windows" />
         </item>
         <item>
-            <title>4.3.17</title>
+            <title>4.3.18</title>
             <enclosure
-                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.17/Pathology-Linux-x64-AppImage.AppImage"
-                sparkle:version="4.3.17" sparkle:os="linux" />
+                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.18/Pathology-Linux-x64-AppImage.AppImage"
+                sparkle:version="4.3.18" sparkle:os="linux" />
         </item>
     </channel>
 </rss>
