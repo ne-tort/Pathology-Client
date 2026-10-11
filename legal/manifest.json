@@ -1,0 +1,15 @@
+{
+  "version": "2026.10.11",
+  "files": {
+    "en": {
+      "name": "license.en.md",
+      "sha256": "487d86bc8d9047706ad736ff80dce3d48656150ad5fa7062ec1209733a893f89",
+      "size": 40326
+    },
+    "ru": {
+      "name": "license.ru.md",
+      "sha256": "097b2132a1174a90ae74536a96fe2581c827e93b4e8a3b309c52723c553b333c",
+      "size": 12641
+    }
+  }
+}
