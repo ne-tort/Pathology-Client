@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.25 — 2026-10-12
+
+- Repository tile points to the public releases repo; acknowledgments reordered (sing-box, Hiddify, Neural networks block, Cursor, ZCode, rest)
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.25)
+
 ## v4.3.24 — 2026-10-12
 
 - dual-scope theming - separate saturation/tint/brightness for page background vs content blocks, reset moved to app bar icon, scaffold follows styled surface
