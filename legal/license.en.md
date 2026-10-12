@@ -1,12 +1,11 @@
 # Pathology — Terms of Use
 
-_Edition of 2026-10-11. This document, together with the Additional Conditions
+_Edition of 2026-10-12. This document, together with the Additional Conditions
 and the GNU General Public License v3 that follow it, is the license agreement
 of the Pathology application._
 
 **Pathology** is a free and open-source VPN and proxy client, a derivative work
-of [Hiddify Next / hiddify-app](https://github.com/hiddify/hiddify-app) (see
-[NOTICE.md](./NOTICE.md) for upstream attribution). It is distributed in the
+of [Hiddify Next / hiddify-app](https://github.com/hiddify/hiddify-app) (developed by the Hiddify project and contributors, licensed under GPLv3). It is distributed in the
 hope that it will be useful, but **without any warranty whatsoever**. By
 installing, launching, or using Pathology you accept the terms below together
 with the GNU General Public License v3 and the Additional Conditions to it.
