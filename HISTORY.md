@@ -2,8 +2,10 @@
 
 ## v4.3.26 — 2026-10-13
 
-- QS tile/shortcut open the app when nothing is connectable (stale cached start target connected 'No VPN' with zero profiles); connect button always disconnects a live session; core pin a17a205f [skip ci]
-- Wire Kotlin props are snake_case (core_state/message_type); ci(cp): subserver-controlplane triggers on pathology+gitlink, publishes :sha-<pin>; releases bake controlplane_image=ghcr...:sha-<pin> via CP_IMAGE [skip ci]
+- QS tile and shortcut open the app when no profile is enabled instead of connecting 'No VPN'; a stale cached start target no longer connects direct mode with zero profiles
+- Home connect button always disconnects a live VPN; the guide quick-start opens only when nothing is connectable
+- Android: core start failures surface via notification instead of leaving a zombie VPN service
+- Releases now bake the exact control-plane image (published by the subserver repo's own CI) instead of a mutable tag
 
 [GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.26)
 
