@@ -1,5 +1,12 @@
 # Pathology — release history
 
+## v4.3.26 — 2026-10-13
+
+- QS tile/shortcut open the app when nothing is connectable (stale cached start target connected 'No VPN' with zero profiles); connect button always disconnects a live session; core pin a17a205f [skip ci]
+- Wire Kotlin props are snake_case (core_state/message_type); ci(cp): subserver-controlplane triggers on pathology+gitlink, publishes :sha-<pin>; releases bake controlplane_image=ghcr...:sha-<pin> via CP_IMAGE [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.26)
+
 ## v4.3.25 — 2026-10-12
 
 - Repository tile points to the public releases repo; acknowledgments reordered (sing-box, Hiddify, Neural networks block, Cursor, ZCode, rest)
