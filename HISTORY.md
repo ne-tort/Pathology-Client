@@ -2,7 +2,7 @@
 
 ## v4.3.28 — 2026-10-13
 
-- seed WG creds on all apply paths + after sync import - subscription was silently dropping WireGuard/PathologyWG endpoints for users without seeded keypairs [skip ci]
+- PathologyWG/WireGuard now actually reaches subscriptions: user WG credentials (keypairs, host index, morpher key) are seeded on every server-config apply and after hub sync imports, not only on the WG page publish
 
 [GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.28)
 
