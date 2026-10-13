@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.28 — 2026-10-13
+
+- seed WG creds on all apply paths + after sync import - subscription was silently dropping WireGuard/PathologyWG endpoints for users without seeded keypairs [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.28)
+
 ## v4.3.27 — 2026-10-13
 
 - Control-plane management/subscription connections now retry transient TLS kills (probabilistic DPI/NAT cuts to bare-IP endpoints) instead of surfacing raw Dio errors; compact transport error strings
