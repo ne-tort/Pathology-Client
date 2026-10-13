@@ -1,5 +1,12 @@
 # Pathology — release history
 
+## v4.3.27 — 2026-10-13
+
+- tolerate transient TLS kills to mgmt endpoint - retry idempotent GETs and CP subscription fetches, DIRECT proxy for sub fetch, close per-call Dio (socket leak), compact transport error strings instead of raw Dio dumps; docs(gaps): record the bare-IP no-SNI DPI diagnosis [skip ci]
+- profileUpsertFailed no longer orphans half-created profiles (rollback on compile failure); subscription compiler fetch gets transient retry + DIRECT + dio.close; nip.io/sslip.io host aliases so server records can move to SNI-carrying hostnames without breaking stored URLs [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.27)
+
 ## v4.3.26 — 2026-10-13
 
 - QS tile and shortcut open the app when no profile is enabled instead of connecting 'No VPN'; a stale cached start target no longer connects direct mode with zero profiles
