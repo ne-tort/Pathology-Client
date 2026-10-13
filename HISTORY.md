@@ -2,8 +2,9 @@
 
 ## v4.3.27 — 2026-10-13
 
-- tolerate transient TLS kills to mgmt endpoint - retry idempotent GETs and CP subscription fetches, DIRECT proxy for sub fetch, close per-call Dio (socket leak), compact transport error strings instead of raw Dio dumps; docs(gaps): record the bare-IP no-SNI DPI diagnosis [skip ci]
-- profileUpsertFailed no longer orphans half-created profiles (rollback on compile failure); subscription compiler fetch gets transient retry + DIRECT + dio.close; nip.io/sslip.io host aliases so server records can move to SNI-carrying hostnames without breaking stored URLs [skip ci]
+- Control-plane management/subscription connections now retry transient TLS kills (probabilistic DPI/NAT cuts to bare-IP endpoints) instead of surfacing raw Dio errors; compact transport error strings
+- Enabling a server-local user as a VPN profile no longer fails with profileUpsertFailed and no longer leaves duplicate profiles: the subscription compiler fetch retries transients, and a failed compile rolls the fresh profile row back
+- nip.io/sslip.io host aliases: a server record can move to an SNI-carrying hostname (e.g. 104-252-111-184.nip.io) without breaking stored subscription URLs
 
 [GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.27)
 
