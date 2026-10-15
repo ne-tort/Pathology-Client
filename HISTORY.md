@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.29 — 2026-10-15
+
+- Punnel/demux semantics made logical: punnel-owned demux sets accept user port slots and members (punnel is a priority matcher, not a port capturer); punnel-managed slots keep per-slot armor; fallback/members tiles on punnel slots are disabled with a hint; sets now show a read-only Punnel rules card (service, match kind, SNI, port) linking to the Punnel page; sets that lose all punnel content become editable again
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.29)
+
 ## v4.3.28 — 2026-10-13
 
 - PathologyWG/WireGuard now actually reaches subscriptions: user WG credentials (keypairs, host index, morpher key) are seeded on every server-config apply and after hub sync imports, not only on the WG page publish
