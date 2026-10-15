@@ -1,5 +1,12 @@
 # Pathology — release history
 
+## v4.3.30 — 2026-10-15
+
+- force /usr/bin/pathology symlink in postinst (packager's bare ln -s loses to a stale file from an old manual install -> binary can't find bundled libs) [skip ci]
+- dual RUNPATH $ORIGIN/lib + /opt/pathology/lib - glibc drops $ORIGIN under AT_SECURE (deb postinst setcap for rootless TUN), so non-root deb runs failed to load bundled plugins [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.30)
+
 ## v4.3.29 — 2026-10-15
 
 - Punnel/demux semantics made logical: punnel-owned demux sets accept user port slots and members (punnel is a priority matcher, not a port capturer); punnel-managed slots keep per-slot armor; fallback/members tiles on punnel slots are disabled with a hint; sets now show a read-only Punnel rules card (service, match kind, SNI, port) linking to the Punnel page; sets that lose all punnel content become editable again
