@@ -1,5 +1,12 @@
 # Pathology — release history
 
+## v4.3.32 — 2026-10-20
+
+- setcap both binaries (caps don't cross exec; tun is created by the spawned PathologyCli) + pin core e6220bba (PathologyCli soname link - was NEEDED ./lib/pathology-core.so resolved against process cwd -> black window on terminal launches) [skip ci]
+- Cascade egress excludes server-owned profile leaves (no self-loop) + hide profiles left with no leaves; rename Outbounds->Cascade (11 locales); wipe-confirm guard no longer fires on empty WG (sticky everPublished false positive) [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.32)
+
 ## v4.3.30 — 2026-10-15
 
 - force /usr/bin/pathology symlink in postinst (packager's bare ln -s loses to a stale file from an old manual install -> binary can't find bundled libs) [skip ci]
