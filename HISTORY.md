@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.33 — 2026-10-22
+
+- list-only server delete, subserver-port ping, fresh-image installs, VPS setup [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.33)
+
 ## v4.3.32 — 2026-10-20
 
 - setcap both binaries (caps don't cross exec; tun is created by the spawned PathologyCli) + pin core e6220bba (PathologyCli soname link - was NEEDED ./lib/pathology-core.so resolved against process cwd -> black window on terminal launches) [skip ci]
