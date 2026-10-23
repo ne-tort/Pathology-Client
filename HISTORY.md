@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.34 — 2026-10-23
+
+- working autostart (login + boot service), visible tray icon [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.34)
+
 ## v4.3.33 — 2026-10-22
 
 - list-only server delete, subserver-port ping, fresh-image installs, VPS setup [skip ci]
