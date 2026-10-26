@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.38 — 2026-10-26
+
+- open the database in the current isolate, not drift_flutter's
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.38)
+
 ## v4.3.37 — 2026-10-26
 
 - seed profile streams from a one-shot read; keep app.log alive [skip ci]
