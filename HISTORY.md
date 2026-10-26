@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.37 — 2026-10-26
+
+- seed profile streams from a one-shot read; keep app.log alive [skip ci]
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.37)
+
 ## v4.3.36 — 2026-10-25
 
 - ownership-based core host, real TUN caps, profile invariants [skip ci]
