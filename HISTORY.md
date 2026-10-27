@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.42 — 2026-10-27
+
+- Maintenance release
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.42)
+
 ## v4.3.40 — 2026-10-27
 
 - bundle a complete sqlite3 - the mirror artifact was missing symbols
