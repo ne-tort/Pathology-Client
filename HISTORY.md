@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.44 — 2026-10-29
+
+- never bake an unpublished subserver image tag
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.44)
+
 ## v4.3.42 — 2026-10-27
 
 - Maintenance release
