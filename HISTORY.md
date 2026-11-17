@@ -1,5 +1,38 @@
 # Pathology — release history
 
+## v4.3.46 — 2026-11-17
+
+- toast start failures from tray / Core Host initiated starts
+- wire the 1.5 track (sing-box-pathology) into the repo layout
+- local 1.5 dev build via docker (no push, no client conflict)
+- engine 1.5 group wrappers in profile pipeline
+- surface dropped/migrated subscription nodes in the UI
+- chain 2.0 — group wrappers as exits + readable path
+- emit engine-1.5 syntax from control-plane mappers
+- thread duplicate-tag warnings through source compile (leftover of the parse-warnings surfacing)
+- local build stages the core into bin/ (it is a build input, never read by the running client) — fixes Flutter install step
+- pathology protocol (engine 1.5) client+server mappers
+- mesh (bb_mesh) UI section
+- add parse-warning keys to all locales (en text as placeholder)
+- pathology preset seed family (13 curated) + preset-only UI selection
+- auto rotation = builder-synthesized group (CP emits only the parent)
+- pathology auto = legend set x4 (stun/tls/quic/ssh) + first-alive rotation
+- close the 1.5 migration re-audit client punch-list + pin bumps
+- pathology:// with an authority is a WG share, not a deep link
+- bake the 1.5 controlplane tag on the 1.5 track
+- merge ref-key SSOT, dangling-hop sweep, legend virtuals in leaf pool
+- cycle guard, serialized mesh sync, validation + mesh knobs
+- scope the wrapper sweep to damage it caused, keep allowlist in step
+- pin per-legend demux rule network to the legend branch
+- shared duplicate-tag predicate, wrapper-liveness allowlist parity
+- report on build/retry paths, profile-scoped dedup, bounded heal state
+- 1.5 endpoint classification, wrapper-aware server sync, mapper fixes
+- dual-stack listen for server inbounds on IPv6 hosts
+- implement the sing-box 1.5 PlatformInterface additions
+- make the extracted AppDir readable before repacking the AppImage
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.46)
+
 ## v4.3.44 — 2026-10-29
 
 - never bake an unpublished subserver image tag
