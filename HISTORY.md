@@ -1,5 +1,11 @@
 # Pathology — release history
 
+## v4.3.47 — 2026-11-20
+
+- l3router hub/spoke, TLS fragmenter and failover sections
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.47)
+
 ## v4.3.46 — 2026-11-17
 
 - toast start failures from tray / Core Host initiated starts
