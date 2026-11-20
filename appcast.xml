@@ -24,11 +24,5 @@
                 url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.47/Pathology-Linux-x64-AppImage.AppImage"
                 sparkle:version="4.3.47" sparkle:os="linux" />
         </item>
-        <item>
-            <title>4.3.47</title>
-            <enclosure
-                url="https://github.com/ne-tort/Pathology-Client/releases/download/v4.3.47/Pathology-macOS-universal.dmg"
-                sparkle:version="4.3.47" sparkle:os="macos" />
-        </item>
     </channel>
 </rss>
