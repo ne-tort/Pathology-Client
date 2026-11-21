@@ -1,5 +1,13 @@
 # Pathology — release history
 
+## v4.3.48 — 2026-11-21
+
+- publish appcast items only for platforms present in the release
+- bake the immutable CP image tag deterministically
+- l3router subscriptions render and probe correctly
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.48)
+
 ## v4.3.47 — 2026-11-20
 
 - l3router hub/spoke, TLS fragmenter and failover sections
