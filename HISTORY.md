@@ -1,5 +1,13 @@
 # Pathology — release history
 
+## v4.3.49 — 2026-11-22
+
+- deliver the l3router mesh to client subscriptions
+- per-source CP subscription SHA + quiet legacy migrations
+- unified section accents + remote heads watcher
+
+[GitHub](https://github.com/ne-tort/Pathology-Client/releases/tag/v4.3.49)
+
 ## v4.3.48 — 2026-11-21
 
 - publish appcast items only for platforms present in the release
